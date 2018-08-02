@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileLogger.cs" />
+    <Compile Include="ILog.cs" />
+    <Compile Include="IPrinter.cs" />
+    <Compile Include="NetworkPrinter.cs" />
+    <Compile Include="PrinterManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
